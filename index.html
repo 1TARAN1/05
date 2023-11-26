@@ -266,7 +266,7 @@
                         <article class="services">
                             <div class="image-services">
                                 <img src="./image/Banking App.jpg" alt="Banking App" width="360" height="300" />
-                                <div class="modal">
+                                <div class="portfolio-modal">
                                     <p>
                                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                                         Tracker
@@ -286,7 +286,7 @@
                             <div class="image-services">
                                 <img src="./image/Cashless Payment.jpg" alt="Cashless Payment" width="360"
                                     height="300" />
-                                <div class="modal">
+                                <div class="portfolio-modal">
                                     <p>
                                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                                         Tracker
@@ -305,7 +305,7 @@
                         <article class="services">
                             <div class="image-services">
                                 <img src="./image/Meditation App.jpg" alt="Meditation App" width="360" height="300" />
-                                <div class="modal">
+                                <div class="portfolio-modal">
                                     <p>
                                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                                         Tracker
@@ -324,7 +324,7 @@
                         <article class="services">
                             <div class="image-services">
                                 <img src="./image/Taxi Service.jpg" alt="Taxi Service" width="360" height="300" />
-                                <div class="modal">
+                                <div class="portfolio-modal">
                                     <p>
                                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                                         Tracker
@@ -344,7 +344,7 @@
                             <div class="image-services">
                                 <img src="./image/Screen illustrations.jpg" alt="Screen Illustrations" width="360"
                                     height="300" />
-                                <div class="modal">
+                                <div class="portfolio-modal">
                                     <p>
                                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                                         Tracker
@@ -363,7 +363,7 @@
                         <article class="services">
                             <div class="image-services">
                                 <img src="./image/Online Courses.jpg" alt="Online Courses" width="360" height="300" />
-                                <div class="modal">
+                                <div class="portfolio-modal">
                                     <p>
                                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                                         Tracker
@@ -421,19 +421,28 @@
 
                     </li>
                 </ul>
-                <div>
-                    <h3 class="footer-h">Subscribe</h3>
-                    <label class="footer-label" for="user-email"></label>
-                    <input class="footer-input" id="user-email" type="email" name="user-email" placeholder="E-mail" />
-                </div>
-                <button class="button-footer" type="button">Subscribe</button>
             </div>
+            <div class="footer-modal-box">
+                <h3 class="footer-h">Subscribe</h3>
+                <form class="form-subscribe">
+                    <label class="footer-label" for="user-email">
+                        <input class="footer-input" id="user-email" type="email" name="user-email" placeholder="E-mail"
+                            autofocus />
+                    </label>
+                    <button class="button-footer" type="submit">Subscribe<svg class="icon-btn-subscride" height="24"
+                            width="24">
+                            <use href="./image/icons.svg#icon-Frame-3"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+
     </footer>
 
     <!-- Modal -->
 
     <div class="backdrop is-open">
-        <div class="modal">
+        <div class="modal-backdrop">
             <button class="modal-close" type="button"><svg class="modal-close-icon" height="8" width="8">
                     <use href="./image/icons.svg#icon-close-black-18dp-2-1"></use>
                 </svg>
@@ -477,7 +486,7 @@
                         value="true" required />
                     <label class="label-checkbox" for="user-privacy"><span class="privacy-policy-text"><svg
                                 class="modal-icon-checkbox" width="10" height="8">
-                                <use href="./images/icons.svg#icon-Property-1click-"></use>
+                                <use href="./image/icons.svg#icon-Property-1click-"></use>
                             </svg></span> I accept the terms and conditions of the<a class="policy" href=""> Privacy
                             Policy</a></label>
                 </div>
